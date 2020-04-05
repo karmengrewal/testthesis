@@ -1,0 +1,21 @@
+body {
+
+	margin: 0;
+	background-color: lightblue;
+	padding: 0;
+
+}
+
+
+img {
+	width: 60px;
+	height: auto;
+}
+
+
+.fish{
+	width: 300px;
+	height: auto;
+	position: absolute;
+
+}

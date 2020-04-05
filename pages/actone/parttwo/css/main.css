@@ -1,0 +1,203 @@
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+/*container around left and right side for padding*/
+.container {
+	position: inline-block;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	padding-left: 10%;
+	padding-right: 10%;
+	height: 100vh;
+
+}
+
+/*left side with website title*/
+.left-side{
+	float: left;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 50%;
+	background-color: green;
+
+}
+
+.lcontainer{
+	margin: 0 auto;
+	zoom: 0.9;
+	position: relative;
+	top:180px;
+	vertical-align: center;
+}
+
+/*css font*/
+
+.fontcontainer{
+	text-align: center;
+}
+
+.letter {
+	width:115px; 
+	height:160px; 
+	display:inline-block; 
+	background-color: green;
+	position:relative; 
+	border:1px solid #ffffff;
+
+}
+	.lettercontainer {
+	text-align:center;
+	margin: 0 auto;
+	width:100px;
+	top:5px;
+	position:relative;
+	vertical-align: center;
+}
+	.aleft-side{
+	height:150px;
+	width:20px;
+	background:white;
+	position:absolute;
+}
+	.atop-side{
+	height:20px;
+	width:100px;
+	background:white;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+	.aright-side{
+	position: absolute;
+	top: 0px;
+	left:80px;
+	height:150px;
+	width:20px;
+	background:white;
+}
+	.acrossbar{
+	position: absolute;
+	top:60px;
+	height:20px;
+	width:90px;
+	background:white;
+
+}
+	.abottombar{
+	height:20px;
+	width:100px;
+	background:white;
+	position: absolute;
+	top: 130px;
+	left: 0px;
+
+}
+
+.letter-t .lettercontainer .aleft-side {
+	left: 40px;
+}
+.letter-r .lettercontainer .aright-side {
+	height: 80px;
+}
+.letter-r .lettercontainer .abottombar {
+	transform: rotate(270deg);
+	width: 80px;
+	top: 100px;
+	left: 30px;
+}
+
+
+/*right side with website info*/
+.right-side{
+	float: right;
+	position: fixed;
+	left: 50%;
+	width: 50%;
+	height: 900px;
+	float: right;
+	overflow-x: scroll;
+	overflow-y: scroll;
+	overflow: scroll;
+}
+
+
+#indent {
+	padding-left: 10%;
+}
+
+#space {
+	height: 20px;
+}
+
+.eventinfo{
+	border:5px solid #008000;
+	padding: 40px;
+}
+
+.register{
+	background-color: white;
+	padding: 10px;
+	position:relative;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+
+}
+
+h1 {
+	position: relative;
+	font-size: 60px;
+	text-transform:uppercase;
+	text-align: center;
+	line-height: 60px;
+	letter-spacing: 5px;
+	color: white;
+	padding-top: auto;
+}
+
+h2 {
+	position: relative;
+	line-height: 20px;
+	color: green;
+	top: 10px;
+		text-transform:uppercase;
+
+}
+
+h3 {
+	position: relative;
+	line-height: 10px;
+	color: black;
+	font-weight: normal;
+}
+
+h4 {
+	position: relative;
+	color: green;
+
+}
+
+h5 {
+	position: relative;
+	font-size: 15px;
+	line-height: 10x;
+
+
+}
+
+p {
+	position: relative;
+	padding-top: 1%;
+	line-height: 20px;
+
+}
+
+a {
+	text-decoration: none;
+	font-size: 20px;
+	color: green;
+}
+
+

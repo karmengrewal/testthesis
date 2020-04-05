@@ -1,0 +1,284 @@
+header {
+	width: 100%;
+	height: 30%;
+	background-color: black;
+	display: block;
+}
+
+.con {
+	position: 
+}
+
+.letter {
+
+	width:200px; /*resize as you see fit */
+	height:300px; /*resize as you see fit */
+	display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
+	border:1px solid #000; /*feel free to remove or hide this rule */
+	position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
+}
+
+
+	.container {
+	text-align:center;
+	margin: 0 auto;
+	width:110px;
+	top:80px;
+	position:relative;
+	vertical-align: center;
+}
+
+	.left-side{
+	height:130px;
+	width:20px;
+	background:grey;
+	position:absolute;
+}
+	.top-side{
+	height:20px;
+	width:100px;
+	background:grey;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+	.right-side{
+	position: absolute;
+	top: 0px;
+	left:80px;
+	height:130px;
+	width:20px;
+	background:grey;
+}
+	.crossbar{
+	position: absolute;
+	top:60px;
+	height:20px;
+	width:90px;
+	background:grey;
+
+}
+	.bottombar{
+	height:20px;
+	width:100px;
+	background:grey;
+	position: absolute;
+	top: 120px;
+	left: 0px;
+
+}
+
+#gupright{
+	height:60px;
+	width:20px;
+	background:black;
+	position: absolute;
+	top: 70px;
+	left: 80px;
+	background:grey;
+}
+
+#jupright{
+	height:60px;
+	width:20px;
+	background:black;
+	position: absolute;
+	top: 70px;
+	left: 0px;
+	background:grey;
+}
+
+/*changes and addons */
+
+.letter-b .container .right-side {
+	left: 70px;
+}
+
+.letter-d .container .right-side {
+	left: 70px;
+}
+
+.letter-i .container .left-side {
+	left: 40px;
+}
+
+.letter-j .container .bottombar {
+	width: 70px;
+}
+
+.letter-j .container .right-side {
+	left: 60px;
+	height: 140px;
+}
+
+.letter-k .container .right-side {
+	height: 80px;
+}
+
+.letter-k .container .bottombar {
+	transform: rotate(90deg);
+	width: 60px;
+	top: 90px;
+	left: 40px;
+}
+
+.letter-m .container .top-side {
+	transform: rotate(59deg);
+	top: 34px;
+	width: 90px;
+	left: -11px;
+	border-top-right-radius: 100px;
+
+}
+
+.letter-m .container .bottombar {
+	transform: rotate(-59deg);
+	top: 34px;
+	width: 90px;
+	left: 20px;
+	border-top-left-radius: 100px;
+}
+
+.letter-n .container .crossbar {
+	transform: rotate(57deg);
+	width: 140px;
+	left: -20px;
+	top: 55px;
+}
+
+.letter-p .container .right-side {
+	height: 80px;
+}
+
+.letter-q .container .bottombar {
+	width: 120px;
+}
+
+
+.letter-r .container .right-side {
+	height: 80px;
+}
+
+.letter-r .container .bottombar {
+	transform: rotate(270deg);
+	width: 60px;
+	top: 90px;
+	left: 50px;
+}
+
+.letter-s .container .left-side {
+	height: 60px;
+}
+
+.letter-s .container .right-side {
+	height: 60px;
+	top: 60px;
+}
+
+.letter-t .container .left-side {
+	left: 40px;
+}
+
+.letter-v .container .left-side {
+	transform: rotate(-25deg);
+	left: 28px;
+	border-bottom-right-radius: 100px;
+}
+
+.letter-v .container .right-side {
+	transform: rotate(25deg);
+	left: 71px;
+	border-bottom-left-radius: 100px;
+}
+
+
+.letter-w .container .top-side {
+	transform: rotate(-56deg);
+	top: 82px;
+	width: 80px;
+	left: -5px;
+	border-bottom-right-radius: 100px;
+}
+
+.letter-w .container .bottombar {
+	transform: rotate(56deg);
+	top: 82px;
+	width: 80px;
+	left: 25px;
+	border-bottom-left-radius: 100px;
+
+}
+
+.letter-x .container .left-side {
+	transform: rotate(-40deg);
+	left: 50px;
+	height: 150px;
+}
+
+.letter-x .container .right-side {
+	transform: rotate(40deg);
+	left: 50px;
+	height: 150px;
+}
+
+.letter-y .container .left-side {
+	transform: rotate(-35deg);
+	left: 30px;
+	height: 85px;
+}
+
+.letter-y .container .right-side {
+	transform: rotate(30deg);
+	left: 50px;
+	height: 150px;
+}
+
+.letter-z .container .left-side {
+	transform: rotate(37deg);
+	left: 40px;
+	height: 141px;
+}
+
+.letter-1 .container .left-side {
+	left: 40px;
+}
+
+.letter-2 .container .left-side {
+	top:60px;
+	height: 80px;
+}
+
+.letter-2 .container .right-side {
+	height: 80px;
+}
+
+
+.letter-5 .container .left-side {
+	height: 60px;
+}
+
+.letter-4 .container .left-side {
+	height: 80px;
+}
+
+.letter-5 .container .right-side {
+	height: 60px;
+	top: 60px;
+}
+
+.letter-6 .container .right-side {
+	height: 60px;
+	top: 60px;
+}
+
+.letter-6 .container .top-side {
+	top: 120px;
+}
+
+.letter-7 .container .crossbar {
+	top: 0px;
+}
+
+.letter-9 .container .left-side {
+	height: 60px;
+}

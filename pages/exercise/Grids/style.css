@@ -1,0 +1,33 @@
+.container {
+
+	width: 100vw;
+	height: 100vh;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+
+.red-box{
+	background:red;
+	grid-column-start: 1;
+	grid-column-end: 2 span;
+}
+
+.green-box{
+	background:green;
+	grid-column-start: 1;
+	grid-column-end: 2 span;
+	grid-row-start: 2;
+	grid-row-end: 2 span;
+}
+
+.blue-box{
+	background:blue;
+	grid-column-start: 3;
+	grid-column-end: 2 span;
+	grid-row-start: 1;
+	grid-row-end: 2 span;
+
+}

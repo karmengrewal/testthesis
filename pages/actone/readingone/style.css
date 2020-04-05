@@ -1,0 +1,41 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.con {
+	width: 90%;
+	height: 100%;
+	margin: 40px;
+	position: absolute;
+}
+
+.back {
+	background-color: #2D3137;
+	height: 10px;
+}
+
+h4 {
+	font-family: 'Noto Sans', sans-serif;
+	color: #3A506B;
+	text-align: left;
+	font-size: 1em;
+	line-height: 20px;
+	text-transform:uppercase;
+}
+
+p {
+	color: #2D3137;
+	font-family: 'Noto Sans', sans-serif;
+	line-height: 25px;
+}
+
+h3 {
+	color: yellow;
+	font-family: 'Noto Sans', sans-serif;
+	float: right;
+	text-decoration-color: yellow;
+	text-decoration: underline;
+
+}

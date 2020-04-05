@@ -1,0 +1,26 @@
+.space {
+height: 100vh;
+width: 100vw;
+background-color: white;
+position: absolute;
+
+}
+
+
+
+
+#piece1, #piece2, #piece3, #piece4, #piece5,
+#piece6, #piece7, #piece8, #piece9, #piece10,
+#piece11, #piece12, #piece13, #piece14, #piece15,
+#piece16, #piece17, #piece18, #piece19, #piece20,
+#piece21, #piece22, #piece23, #piece24, #piece25,
+#piece26, #piece27, #piece28, #piece29, #piece30 {
+  width: 2px;
+  height: 2px;
+  transform: scale(0.3);
+}
+
+.h1{
+	font: sans-serif;
+	
+}

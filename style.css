@@ -1,0 +1,85 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.con1{
+	float: left;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 50%;
+	height: 100%;
+	background-color: #3A506B;
+}
+
+.con2{
+	float: right;
+	position: fixed;
+	top: 0px;
+	left: 50%;
+	width: 50%;
+	height: 100%;
+	background-color: #FFFFFF;
+	overflow: auto;
+	max-height: 100vh;
+}
+
+.conin {
+	margin:30px;
+	margin-top: 80px;
+
+}
+
+h1 {
+	font-family: 'Noto Sans', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 7em;
+	padding-top: 10%;
+	line-height: 90%;
+}
+
+h3 {
+	font-family: 'Noto Sans', sans-serif;
+	color: #3A506B;
+	text-align: left;
+	font-size: 2em;
+	text-transform:uppercase;
+	line-height: 30px;
+}
+
+h4 {
+	font-family: 'Noto Sans', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 1em;
+	line-height: 20px;
+	text-transform:uppercase;
+}
+
+h5 {
+	font-family: 'Noto Sans', sans-serif;
+	color: #2D3137;
+	text-align: left;
+	font-size: 1em;
+	line-height: 20px;
+	text-transform:uppercase;
+	text-decoration: underline;
+  	text-decoration-color: #3A506B;
+  	text-indent: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
